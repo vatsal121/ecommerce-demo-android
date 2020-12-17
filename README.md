@@ -10,14 +10,16 @@
 
 </div>
 
-### Project Specs
+### Project Info
+
+  - Android (Java)
+  - Room for DB
 
 1) Ecommerce App is a simple application built using android.
   
 2) Project Demo
     - Video file is attached to the file for the demo of our project.
     
-                    
 3) Test Credentials
     - When the user built the application then they have to register to the page 
     - Username and Password is mandatory to login the app
@@ -62,7 +64,7 @@
 - Example: showToastMessage() : Shows toast message to the user with the given message and toast duration.
 
 
-##### The functionality achieved in the following pages are fully implemented by us both.
+##### The functionality achieved are fully implemented by us both.
 
 - Tasks By Vatsal Chauhan and Meet Patel combined
 
