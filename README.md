@@ -64,6 +64,25 @@
 - Example: showToastMessage() : Shows toast message to the user with the given message and toast duration.
 
 
-##### The functionality achieved are fully implemented by us both.
+### Task Distributions
+
+##### The functionality achieved in the following pages are fully implemented by us individually.
+       
+Task/ Functionality Name  | Done By 
+------------- | -------------
+Login  |  Meet Patel 
+Registration  |  Meet Patel 
+DB Config(AppDatabase class, Entity(Login, Register, Product), DAO(User, Product)  |  Meet Patel 
+Recycler View(including ViewHolders, Adapters)  |  Vatsal Chauhan 
+Menu Bar(including navigation to the menu pages)  |  Meet Patel 
+AddToCart  |  Vatsal Chauhan
+Cart Page(Add, Edit, Delete) | Vatsal Chauhan
+Checkout(Including Dialogs) | Meet Patel
+Animation | Meet Patel and Vatsal Chauhan
+Helper Class | Vatsal Chauhan
+Design | Vatsal Chauhan and Meet Patel
+Other Resources | Vatsal Chauhan and Meet Patel
+DB Config(Entity(Cart), DAO(Cart) | Vatsal Chauhan
+ClickListener for RecylerView Interface | Vatsal Chauhan
 
 - Tasks By Vatsal Chauhan and Meet Patel combined
