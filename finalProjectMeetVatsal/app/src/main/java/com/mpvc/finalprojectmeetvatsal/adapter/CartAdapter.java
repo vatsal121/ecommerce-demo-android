@@ -4,8 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,7 +13,6 @@ import com.mpvc.finalprojectmeetvatsal.helpers.HelperMethods;
 import com.mpvc.finalprojectmeetvatsal.interfaces.ButtonListenerInterface;
 import com.mpvc.finalprojectmeetvatsal.viewholders.CartViewHolder;
 
-import java.text.NumberFormat;
 import java.util.List;
 
 public class CartAdapter extends RecyclerView.Adapter<CartViewHolder> {
@@ -65,8 +62,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartViewHolder> {
         holder.txtSubtotalPrice.setText(HelperMethods.formatPrice(getProductTotalPrice(cart)));
         holder.cartImageView.setImageDrawable(mCtx.getDrawable(HelperMethods.getImageID(cart.getProduct().getProductImage())));
 
-//        Animation animation= AnimationUtils.loadAnimation(mCtx, android.R.anim.slide_out_right);
-//        holder.itemView.startAnimation(animation);
     }
 
 

@@ -49,20 +49,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         userDao = appDatabase.userDao();
 
         sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_FILE,Context.MODE_PRIVATE);
-//        if(!TextUtils.isEmpty(sharedPreferences.getString("UserName",""))){
-//            Intent i=new Intent(this, HomePage.class);
-//            startActivity(i);
-//        }
-    }
-
-    @Override
-    protected void onPostResume() {
-        super.onPostResume();
-//        sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_FILE,Context.MODE_PRIVATE);
-//        if(!TextUtils.isEmpty(sharedPreferences.getString("UserName",""))){
-//            Intent i=new Intent(this, HomePage.class);
-//            startActivity(i);
-//        }
     }
 
     private void redirectIfUserExists(User user){

@@ -88,11 +88,5 @@ public class HelperMethods {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         return formatter.format(price);
     }
-//
-//    public static void setDataInSharedPreference(Context ctx, SharedPreferences sharedPreferences){
-//        SharedPreferences sharedPref = ctx.getSharedPreferences(Context.MODE_PRIVATE);
-//        SharedPreferences.Editor editor = sharedPref.edit();
-//        editor.putInt(getString(R.string.saved_high_score_key), newHighScore);
-//        editor.apply();
-//    }
+
 }

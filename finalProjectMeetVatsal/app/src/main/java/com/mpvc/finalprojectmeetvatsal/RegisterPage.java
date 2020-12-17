@@ -98,7 +98,6 @@ public class RegisterPage extends AppCompatActivity implements View.OnClickListe
                         userLiveData.removeObservers(RegisterPage.this);
                     }
                 });
-
                 break;
             default:
                 break;

@@ -11,7 +11,7 @@
         android:theme="@style/Theme.FinalProjectMeetVatsal">
         <activity android:name=".recycler.CartProductLayout"></activity>
         <activity android:name=".recycler.CartPage" />
-        <activity android:name=".recycler.layout_products" />
+        <activity android:name=".recycler.Layout_Products" />
         <activity android:name=".recycler.HomePage" />
         <activity android:name=".RegisterPage" android:theme="@style/Theme.AppCompat.NoActionBar"  />
         <activity

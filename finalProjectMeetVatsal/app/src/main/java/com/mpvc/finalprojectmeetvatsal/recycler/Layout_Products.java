@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.mpvc.finalprojectmeetvatsal.R;
 
-public class layout_products extends AppCompatActivity {
+public class Layout_Products extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

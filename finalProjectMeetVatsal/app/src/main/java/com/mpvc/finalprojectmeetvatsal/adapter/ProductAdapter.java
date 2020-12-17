@@ -61,7 +61,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductViewHolder> {
         holder.textViewRating.setText(String.valueOf(product.getRating()));
         holder.textViewPrice.setText(String.valueOf("$ "+product.getPrice()));
 
-        holder.imageView.setImageDrawable(mCtx.getDrawable(HelperMethods.getImageID(product.getProductImage()))); //mCtx.getResources().getDrawable(product.getImage()));
+        holder.imageView.setImageDrawable(mCtx.getDrawable(HelperMethods.getImageID(product.getProductImage())));
         Animation animation= AnimationUtils.loadAnimation(mCtx, android.R.anim.slide_in_left);
         holder.itemView.startAnimation(animation);
     }
