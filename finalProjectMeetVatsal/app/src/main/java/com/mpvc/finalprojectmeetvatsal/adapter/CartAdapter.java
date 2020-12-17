@@ -35,11 +35,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartViewHolder> {
         notifyDataSetChanged();
     }
 
-    public void addProductToList(Cart cart){
-        this.cartList.add(cart);
-        notifyDataSetChanged();
-    }
-
     @Override
     public CartViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         //inflating and returning our view holder

@@ -73,6 +73,7 @@ public class CartPage extends AppCompatActivity implements ButtonListenerInterfa
                                             AppDatabase.databaseWriteExecutor.execute(()->{
                                                 cartDao.checkOutCart(userId);
                                             });
+                                            HelperMethods.showToastMessage(ctx,"Checked out successfully!",Toast.LENGTH_LONG);
                                         }
                                     })
                                     .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
