@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recycler.CartProductLayout">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/cart_imageView"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/cart_txtViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/cart_imageView"
+                android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/cart_txtViewShortDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cart_txtViewTitle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/cart_imageView"
+                android:text="13.3 Inch, 256 GB"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/cart_txtViewRating"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/cart_txtViewShortDesc"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_toRightOf="@id/cart_imageView"-->
+<!--                android:background="@color/purple_200"-->
+<!--                android:paddingLeft="15dp"-->
+<!--                android:paddingRight="15dp"-->
+<!--                android:text="4.7"-->
+<!--                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"-->
+<!--                android:textStyle="bold" />-->
+
+
+
+            <TextView
+                android:id="@+id/cart_txtViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cart_txtViewShortDesc"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/cart_imageView"
+                android:text="CAD 1800"
+                android:textSize="15sp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/cart_txtPriceLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cart_txtViewShortDesc"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/cart_txtViewPrice"
+                android:layout_toRightOf="@+id/cart_txtViewPrice"
+                android:text="Price: "
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/cart_txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cart_txtViewShortDesc"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/cart_txtPriceLabel"
+                android:layout_toRightOf="@+id/cart_txtPriceLabel"
+                android:text="0$"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/cart_btnDecreaseQty"
+                android:layout_width="40dp"
+                android:layout_below="@id/cart_txtViewPrice"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/cart_imageView"
+                android:text="-"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/cart_txtQtyLabel"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cart_txtViewPrice"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="32dp"
+                android:layout_toEndOf="@+id/cart_btnDecreaseQty"
+                android:layout_toRightOf="@+id/cart_btnDecreaseQty"
+                android:gravity="center"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/cart_btnIncreaseQty"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cart_txtViewPrice"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/cart_txtQtyLabel"
+                android:layout_toRightOf="@+id/cart_txtQtyLabel"
+                android:text="+" />
+
+            <ImageButton
+                android:id="@+id/cart_btnRemoveProduct"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/cart_txtPrice"
+
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/cart_btnIncreaseQty"
+                android:src="@drawable/ic_action_delete" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

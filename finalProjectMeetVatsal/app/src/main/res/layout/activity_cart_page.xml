@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recycler.CartPage">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartPage_listRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/cartPage_txtTotalLabel"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:layout_marginLeft="5dp"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="0$"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/cartPage_txtTotalLabel"
+            android:id="@+id/cartPage_txtTotalPrice"
+            android:textColor="#198754"
+            />
+    <Button
+            android:layout_below="@+id/cartPage_txtTotalLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:id="@+id/cartPage_btnCheckout"
+            />
+    </RelativeLayout>
+</LinearLayout>

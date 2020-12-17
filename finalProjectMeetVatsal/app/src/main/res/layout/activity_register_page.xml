@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+    <EditText
+        android:id="@+id/registerPage_txtUserName"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150sp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:textColor="@color/black"
+        android:inputType="textNoSuggestions"
+        />
+
+    <EditText
+        android:id="@+id/registerPage_txtPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/registerPage_txtConfirmPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/registerPage_btnRegister"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="REgister"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:background="#97fcf1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Already have account"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/registerPage_btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page?"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
