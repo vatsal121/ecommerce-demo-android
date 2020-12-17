@@ -74,6 +74,7 @@ Login  |  Meet Patel
 Registration  |  Meet Patel 
 DB Config(AppDatabase class, Entity(Login, Register, Product), DAO(User, Product)  |  Meet Patel 
 Recycler View(including ViewHolders, Adapters)  |  Vatsal Chauhan 
+Recycler View(Product)  |  Meet Patel 
 Menu Bar(including navigation to the menu pages)  |  Meet Patel 
 AddToCart  |  Vatsal Chauhan
 Cart Page(Add, Edit, Delete) | Vatsal Chauhan
