@@ -42,18 +42,18 @@
 	- 3) Successful Email id and Password will give access to the application
 	     
 
--Home Page: 
+- Home Page: 
 	- 1) List of product is been displayed when the user login the page
 	- 2) User can add the product to cart 
 	- 3) MenuBar has two icon one is to View Cart and second is Logout button.
-    - 4) If same product is added to cart again, then it will increase the product quantity in the cart by 1.(User can update the QTY on the cart page also.)
+    	- 4) If same product is added to cart again, then it will increase the product quantity in the cart by 1.(User can update the QTY on the cart page also.)
 
--Cart Page: 
+- Cart Page: 
 	- 1) List of product user wish to buy is stored in this page 
 	- 2) User can add multiple number of same product
 	- 3) If the quantity of the product is equal to 0, it will automatically delete the product.
-    - 4) User can remove any product from the cart manually by clicking the delete(trash icon) button.
-    - 5) Click checkout button will create a alert dialog which will ask the user to proceed to checkout or not.
+    	- 4) User can remove any product from the cart manually by clicking the delete(trash icon) button.
+    	- 5) Click checkout button will create a alert dialog which will ask the user to proceed to checkout or not.
 
 ### Helper Functions
 
